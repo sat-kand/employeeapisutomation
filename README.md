@@ -18,8 +18,8 @@ This project is a Rest-Assured + TestNG based automated API test suite for testi
 * Clone this project
 * Open using Intellij IDE
 * Maven will install the dependencies automatically
-* 
-### To Run the test:
+
+### To Run the test in Terminal:
 
 `mvn test -Dtoken={uniqueToken}`
 
