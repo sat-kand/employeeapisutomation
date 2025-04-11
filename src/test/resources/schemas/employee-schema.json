@@ -1,0 +1,19 @@
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "_id": {"type": "string"},
+    "FirstName": {"type": "string"},
+    "LastName": {"type": "string"},
+    "DateOfBirth": {"type": "string"},
+    "StartDate": {"type": "string"},
+    "Department": {"type": "string"},
+    "JobTitle": {"type": "string"},
+    "Email": {"type": "string"},
+    "Mobile": {"type": "string"},
+    "Address": {"type": "string"},
+    "BaseSalary": {"type": "number"}
+  },
+  "required": ["_id", "FirstName", "LastName", "DateOfBirth", "StartDate", "Department", "JobTitle", "Email", "Mobile", "Address", "BaseSalary"]
+}
